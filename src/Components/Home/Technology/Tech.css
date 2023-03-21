@@ -1,0 +1,138 @@
+.TechMain {
+  background-color: var(--baselight);
+  flex-direction: column;
+  padding-block-start: 50px;
+  padding-block-end: 40px;
+  padding-bottom: 150px;
+  padding-top: 120px;
+}
+.TechMain .carousel-indicators {
+ 
+  display: none;
+}
+.TechMain .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tectimgs {
+  width: 100% !important;
+  height: 30px !important;
+  justify-content: space-around;
+  /* border: 3px dashed red; */
+  height: 100% !important;
+  align-items: center;
+}
+
+.tectimgs img {
+  /* width: 70px !important; */
+  /* height: 70px !important; */
+  scale: 0.7;
+  object-fit: contain;
+}
+
+.TechMain .carousel {
+  width: 70vw;
+  height: 100px;
+}
+
+.TechMain .carousel-inner {
+  height: 100pautox;
+}
+
+.TechMain .carousel-caption{
+    color: #2d2d2d;
+    margin-top: -110px !important;
+}
+
+.TechMain .carousel-caption h5 {
+  margin-top: -124px !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  text-transform: capitalize;
+  font-family: 'gothic';
+}
+
+.TechMain .carousel-control-prev-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff00 !important;
+  background-size: 100% 100%;
+  border-radius: 100%;
+  background-image: url(./Assets/arrow-left.png);
+
+}
+.TechMain .carousel-control-next-icon{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+ 
+  background-color: #ffffff00 !important;
+  background-size: 100% 100%;
+  border-radius: 100%;
+
+  background-image: url(./Assets/arrow-right.png);
+
+}
+
+.TechMain .carousel-control-next-icon{
+    scale: 0.8;
+
+}
+
+.TechMain .carousel-control-prev-icon{
+    scale: 0.8;
+    /* margin-right: -600px; */
+}
+
+.TechMain .carousel-indicators{
+    top: 147px;
+}
+
+.TechMain .carousel-indicators li {
+  background-color: #878787 ;
+}
+
+.TechMain .carousel-indicators .active {
+    background-color: #2d2d2d ;
+}
+#wrap{
+  background-color: #ddd;
+  padding: 50px 0;
+}
+#slider,#thumbnail_slider{
+  width: 300px;
+  margin: 0 auto 10px;
+}
+.slide-item  img{
+ 
+    width: 100%;
+ 
+}
+.thumbnail-item  img{
+
+    width: 98%;
+    margin: 0 auto;
+
+}
+.carousel-control-prev {
+ 
+  left:34% !important;
+  top: -81px !important;
+}
+.carousel-control-next {
+ 
+  right: 34% !important;
+  top: -81px !important;
+}
+.tit-wraoop h5 {
+  text-align: center;
+}
+.tectimgs {
+  padding-top: 40px;
+}

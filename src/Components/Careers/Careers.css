@@ -1,0 +1,483 @@
+.CareersHeader {
+  min-height: 85vh;
+  width: 100%;
+  /* background-color: rgb(33, 56, 56); */
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(./Assets/careersheader.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: var(--baselight);
+  -webkit-text-stroke: 4px var(--baselight);
+  font-family: var(--Gothic);
+  font-size: 8rem;
+  font-size: clamp(5vw, 10vw, 8rem);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.CareersHeader_text {
+  -webkit-text-stroke: 0px;
+  color: var(--baselight);
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 3vh, 1rem);
+  max-width: 880px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: unset;
+}
+
+/* ================================================== */
+
+.WhyOctaMain {
+  flex-direction: column;
+  background-color: var(--baselight);
+  padding-block: 160px;
+}
+
+.WhyOctaheader {
+  font-family: var(--Gothic);
+  text-align: center;
+}
+
+.WhyOctaheader p:first-child {
+  font-weight: 700;
+  font-size: 40px;
+  font-size: clamp(30px, 4vw, 40px);
+  line-height: 49px;
+  color: var(--nasegrey);
+}
+
+.WhyOctaheader span:last-child {
+  font-family: sans-serif !important;
+}
+
+.WhyOctaheader p:last-child {
+  max-width: 814px;
+  font-weight: 400;
+  font-size: 17.8216px;
+  font-size: clamp(16px, 3vw, 17px);
+  line-height: 172.25%;
+  color: var(--nasegrey);
+  margin-top: 40px;
+}
+
+/* =============================== */
+.whycardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.WhyOctaMain .container {
+  max-width: 1530px !important;
+}
+.Octacard {
+  width: 470.22px;
+  height: 304.46px;
+
+  background: var(--basegrey);
+  box-shadow: 0px 3.48956px 3.48956px rgba(0, 0, 0, 0.25);
+  border-radius: 6.10673px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 0%;
+}
+
+.Octacard div {
+  width: 184.07px;
+  height: 70.66px;
+
+  background: var(--accentblue);
+  box-shadow: 0px 4.36195px 12.2135px rgba(0, 0, 0, 0.26);
+  border-radius: 0px 0px 35.3318px 0px;
+
+  font-family: var(--Gothic);
+  font-weight: 600;
+  font-size: 26.1717px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  color: var(--baselight);
+}
+
+.Octacard p {
+  /* font-family: 'Quicksand'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.4478px;
+  line-height: 22px;
+
+  color: var(--baselight);
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.octaWork {
+  background: var(--baselight);
+  flex-direction: column;
+  padding-bottom: 140px;
+  padding-inline: 20px;
+}
+.octaWork_Text {
+  font-family: var(--Gothic);
+  color: var(--basegrey);
+  text-align: center;
+}
+.octaWork_Text p:first-child {
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 700;
+  /* font-size: 40px; */
+  line-height: 49px;
+}
+
+.octaWork_Text p:last-child {
+  height: 37px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.CareValues {
+  display: flex;
+  margin-top: 90px;
+}
+
+.leftCareValues {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  order: 1;
+  max-width: 30vw;
+}
+
+.midCareValues {
+  order: 2;
+  width: 470px;
+  height: 580.99px;
+
+  padding-inline: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karantina";
+
+  font-weight: 400;
+  font-size: 63.1277px;
+  line-height: 54px;
+  background: #d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #000000;
+}
+
+.rightCareValues {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  order: 3;
+  max-width: 30vw;
+}
+
+.CarevalueCard {
+  font-family: var(--Gothic);
+  width: 425px;
+  height: 125px;
+  background-color: var(--basegrey);
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.cardflip {
+  flex-direction: row-reverse !important;
+}
+
+.cardflip .CarevalueContent {
+  text-align: right;
+}
+
+.CarevalueCard_number {
+  width: 92px;
+  height: 91.26px;
+  background-color: var(--accentblue);
+  font-weight: 700;
+  font-size: 70px;
+  font-family: var(--Gothic);
+  color: var(--baselight);
+}
+
+.CarevalueSpace {
+  width: 50px;
+}
+.CarevalueContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--baselight);
+}
+
+.CarevalueContent p:first-child {
+  height: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.CarevalueContent p:last-child {
+  width: 164px;
+  height: 36px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #9c9999;
+  margin: 0;
+}
+
+/* ======================================================================== */
+.JoinUsSection {
+  background-color: var(--basegrey);
+  padding-block: 80px;
+  padding-block-end: 0px;
+  flex-direction: column;
+}
+
+.JoinUsSection_title p {
+  font-family: var(--Gothic) !important;
+  font-weight: 700 !important;
+  font-size: 49.8462px !important;
+  line-height: 61px !important;
+  color: var(--baselight);
+  margin-bottom: 0px !important;
+}
+
+.JoinUsSection_Card {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.JobTitle {
+  height: 19.37px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #b0b0b0;
+}
+
+.jobcontent {
+  max-width: 332px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 3px;
+  color: #b0b0b0;
+}
+
+.jobtype {
+  width: 87px;
+  height: 34px;
+
+  background: #d9d9d9;
+
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.applyJob {
+  width: 166px;
+  height: 47px;
+
+  background: var(--accentblue);
+  border-radius: 2px;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* ------------------------------------------- */
+.AddressDiv {
+  display: flex;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+/* .addresscard {
+} */
+
+.AddressDiv .addresscard:nth-child(1){
+  max-width: 280px;
+}
+
+.AddressDiv .addresscard:nth-child(2){
+  max-width: 2803px;
+
+}
+
+.AddressDiv .addresscard:nth-child(3){
+  max-width: 187px;
+
+}
+
+.addresscard div {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+/* .addresscardimg {
+} */
+
+.addresstitle {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 25px;
+  color: var(--baselight);
+  margin: 0px;
+}
+.addresscontent {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.6px;
+  color: silver;
+  margin-bottom: 3px;
+}
+
+.JoinOcta {
+  min-height: 65vh;
+  width: 100%;
+  background: url(./Assets/careersbanner2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: var(--Gothic);
+  flex-direction: column;
+  color: var(--baselight);
+  gap: 0px;
+}
+
+.JoinOcta p:first-child {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+
+.JoinOcta p:last-of-type {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 10px;
+}
+
+.JoinOcta button {
+  width: 184px;
+  height: 39.95px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.44);
+  border: 1.21053px solid #ffffff;
+  color: var(--baselight);
+
+  font-weight: 400;
+  font-size: 14.1435px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-height: 800px), (max-width: 1400px) {
+  .Octacard {
+    /* transform: scale(.8); */
+    width: 420px;
+    height: 294px;
+    /* width: calc(470.22px * 0.9); */
+    /* height: calc(304.46px * 0.9); */
+  }
+
+  .CarevalueCard {
+    /* width: 425px; */
+    width: clamp(350px, 20vw, 425px);
+  }
+  
+.midCareValues {
+  width: clamp(400px, 20vw, 470px);
+  padding-inline: 70px;
+}
+}
+
+@media only screen and (max-width: 1129px) {
+  .CareValues {
+    flex-direction: column !important;
+  }
+
+  .leftCareValues{
+    align-items: center !important;
+    max-width: unset !important;
+    order: 2 !important;
+    margin-bottom: 10px ;
+  }
+
+  .rightCareValues{
+    align-items: center !important;
+    max-width: unset !important;
+    order: 3 !important;
+  }
+
+  .midCareValues {
+    /* width: 100%; */
+    padding-inline: 20px;
+    height: unset;
+    padding-block: 40px;
+    font-size: 60px;
+    order: 1 !important;
+    margin-bottom: 20px ;
+
+  }
+
+  .CarevalueCard{
+    /* width: 100%; */
+  }
+
+  .cardflip {
+    flex-direction: row !important;
+  }
+  
+  .cardflip .CarevalueContent {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .AddressDiv{
+    flex-direction: column;
+  }
+}

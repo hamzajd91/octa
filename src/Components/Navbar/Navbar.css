@@ -1,0 +1,87 @@
+.navbar{
+    background-color: transparent !important;
+    background: linear-gradient(black, transparent);
+    background-color: transparent !important;
+    /* border: 2px solid hotpink; */
+    z-index: 2;
+    padding-inline: 30px !important;
+    /* padding-top: 20px; */
+    width: 99vw;
+    position: absolute !important;
+}
+
+.NavButton{
+    border: 1px solid var(--primarygold) !important;
+    color: white !important;
+    padding-bottom: 0px !important;
+}
+
+.logo{
+    /* height: 70px;
+    width: 70px;
+
+    width: 173px;
+    height: 43px; */
+
+    /* scale: .5; */
+    width: 100%;
+
+    width: 190px;
+    /* height: 81px;  */
+}
+
+.logoLink{
+    /* scale: .2; */
+    /* translate: -450px 0; */
+
+}
+
+a.nav-link {
+    padding: 3px 20px !important;
+}
+
+li.nav-item.active>a.nav-link {
+    background: white;
+    color: black !important;
+    background: #FFFFFF;
+    border-radius: 17px;
+    font-weight: 700;
+}
+.contact-us{
+    background: #FFFFFF !important;
+    border-radius: 3.8961px !important;
+    color: black !important;
+    font-weight: 700 !important;
+    padding: 2px 13px !important;
+    height: 38px !important;
+}
+
+li#AboutUs:hover ul.dropdown-menu-custom {
+    visibility: visible;
+}
+
+
+li#AboutUs {
+    position: relative;
+}
+.navbar-dark .navbar-nav .nav-link {
+ 
+    margin: 10px 0px !important;
+}
+ul.dropdown-menu-custom {
+    padding: 0px;
+    background: linear-gradient(45deg, #0b6baf, #60cfad);
+    margin: 0;
+    padding: 13px 0px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    padding-left: 10px;
+    visibility: hidden;
+}
+ul.dropdown-menu-custom {
+    position: absolute;
+   
+}

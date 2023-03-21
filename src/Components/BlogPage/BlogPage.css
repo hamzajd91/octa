@@ -1,0 +1,76 @@
+.BlogPageHeader {
+    min-height: 85vh;
+    width: 100%;
+    /* background-color: rgb(33, 56, 56); */
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 100%),
+        url(./Assets/careersheader.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: var(--baselight);
+    -webkit-text-stroke: 4px var(--baselight);
+    font-family: var(--Gothic);
+    font-size: 8rem;
+    font-size: clamp(5vw, 10vw, 8rem);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.BlogPageHeader p:last-of-type{
+    -webkit-text-stroke: 0px;
+    color: var(--baselight);
+    font-size: clamp(0.8rem, 3vh, 1rem);
+    max-width: 880px;
+    text-align: center;
+}
+
+.BlogsTabs {
+    padding-top: 150px;
+    margin-top: -10px;
+    background-color: var(--basegrey);
+}
+
+.BlogsTabs .container{
+    max-width: 1700px !important;
+    
+}
+
+.BlogsTabs-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.DropUsALine {
+    flex-direction: column;
+    background: var(--baselight);
+    min-height: 400px;
+    color: var(--basegrey);
+}
+
+.DropUsALine-header-text {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.DropUsALine-para {
+    max-width: 900px;
+}
+
+.DropUsALine-button-text {
+    background: var(--basegrey) !important;
+    border: 1.5708px solid var(--baselight) !important;
+    border-radius: 3.1977px !important;
+    width: 218px !important;
+    height: 62.29px !important;
+    color: var(--baselight) !important;
+    margin-top: 15px !important;
+}

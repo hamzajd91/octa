@@ -1,0 +1,106 @@
+.footerContainer {
+  background-color: var(--basegrey);
+  flex-direction: column;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 100px;
+  padding-inline: 80px;
+}
+
+.footerContainer .container {
+  max-width: 1300px !important;
+}
+
+.Footerlogo img {
+  width: 250px;
+
+}
+
+.footeraddress {
+  font-family: var(--Gothic);
+  max-width: 536px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  margin-block: 40px;
+  color: silver;
+}
+
+.FooterHead {
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: 26.4412px;
+  text-transform: capitalize;
+  color: var(--baselight);
+}
+
+.Footertext {
+  font-family: var(--Gothic);
+  max-width: 536px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: silver !important;
+}
+
+.break {
+  background-color: var(--baselight);
+  width: 100%;
+}
+
+.Footerform {
+  margin-top: 70px;
+  width: clamp(100%, 10vw, 420px);
+  height: 40px;
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Footerform input {
+  background-color: white !important;
+  border: none !important;
+  margin-right: 10px;
+}
+
+.Footerform button {
+  background: var(--accentblue) !important;
+  border: none;
+  height: 135% !important;
+}
+
+.Footerform button IMG {
+  height: 25px;
+  width: 25px;
+}
+
+.footerinput {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.copyrightTXT {
+  max-width: 441px;
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: 17.5835px;
+  text-align: center;
+  text-transform: capitalize;
+  color: silver;
+  padding-bottom: 25px;
+}
+@media (max-width:767px) {
+  .footerContainer {
+   
+    padding-inline: 20px;
+}
+}

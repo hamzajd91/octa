@@ -1,0 +1,129 @@
+.Workmain {
+  background-color: var(--baselight);
+  flex-direction: column;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Workmain .container {
+  max-width: 80% !important;
+  margin-block: 80px;
+}
+
+.WorkCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.WorkCard {
+  display: flex;
+  gap: 15px;
+}
+
+.WorkCardNumber {
+  width: 87px;
+  height: 108px;
+
+  background: var(--basegrey);
+  border-left: 8px solid var(--accentblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "gothic" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 104px;
+
+  color: #ffffff;
+}
+
+.WorkCardTitle {
+  max-width: 147px;
+
+  font-family: "Gothic" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.5126px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.WorkCardContent {
+  max-width: 224px; 
+  font-family: "Gothic" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+
+  color: var(--textgray);
+}
+
+.WorkImg {
+  width: 579.24px;
+  height: 386.2px;
+  width: 100%;
+
+  /* width: 579.24px; */
+  /* height: 386.2px; */
+
+  background: url(./Assets/Workimg.png);
+  border-radius: 11.7507px;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1377px) {
+  .WorkImg {
+    /* width: 450.24px; */
+    /* height: 300.2px; */
+
+    width: 40vw;
+    height: 300.2px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .WorkCardNumber {
+    width: 77px;
+    height: 98px;
+    border-left: 7px solid var(--accentblue);
+    font-weight: 700;
+    font-size: 5rem;
+  }
+  .WorkCardContent {
+  max-width: 13rem;
+
+  }
+}
+
+
+@media only screen and (max-width: 1270px) {
+  .splitWorkContent{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .WorkImg{
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .WorkImg{
+    width: 80vw;
+  }
+}

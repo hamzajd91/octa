@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "gothic";
+  src: url("./Fonts/Gothic/gothic.eot");
+  src: local("gothic"), url("./Fonts/Gothic/gothic.woff") format("woff"),
+    url("./Fonts/Gothic/gothic.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+:root {
+  --basegrey: #2d2d2d;
+  --baselight: #e6e6e6;
+  --accentblue: #298cdf;
+  --textgray: #4c4c4c;
+  --Gothic: "gothic";
+  --karantina: "Karantina";
+}
+
+* {
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--baselight);
+}
+
+.container{
+max-width: 1400px !important;
+max-width: 1500px !important;
+/* border: 4px solid red; */
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invert{
+  filter: invert(1) !important;
+}
+
+.OctaHeader{
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: clamp(1.2rem, 3vw, 2.8rem);
+  width: 100%;
+  -webkit-text-stroke: 1px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  z-index: 2;
+  position: relative;
+}
+.OctaHeader p:first-of-type {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.03);
+  font-size: clamp(1rem, 10vw, 90px);
+  cursor: default !important;
+  pointer-events: none !important;
+  -webkit-text-stroke: 0px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  margin: 0px;
+  z-index: -1;
+}
+.OctaHeaderlight{
+  font-family: var(--Gothic);
+  color: var(--baselight);
+  font-weight: 700;
+  font-size: clamp(1.2rem, 3vw, 2.8rem);
+  width: 100%;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  z-index: 2;
+  text-transform: uppercase;
+  position: relative;
+}
+.OctaHeaderlight p:first-of-type {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.05);
+  font-size: clamp(1rem, 10vw, 90px);
+  cursor: default !important;
+  pointer-events: none !important;
+  -webkit-text-stroke: 0px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  margin: 0px;
+  z-index: -1;
+}
+
+.Header1 {
+  font-family: var(--Gothic);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.containerWide{
+  max-width: 90% !important;
+}
+
+/* MEdia queries */
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .App {
+    background: var(--Bgwhite);
+  }
+}
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .App {
+    background: var(--Bgwhite);
+  }
+}
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .App {
+    background: var(--Bgwhite);
+  }
+}
+
+.D1 {
+  background-color: chartreuse !important;
+}
+.D2 {
+  background-color: gold !important;
+}
+.D3 {
+  background-color: springgreen !important;
+}
+
+.B1 {
+  border: 2px solid red;
+}
+.B2 {
+  border: 2px solid blue;
+}
+.B3 {
+  border: 2px solid orange;
+}
+a:hover{
+  text-decoration: none;
+}
+@media (max-width:767px) {
+  .centered.TestimonialsMain{
+    display: none;
+  }
+}
+input#query{
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .FooterHead {
+  
+    margin-top: 20px;
+}
+}

@@ -1,0 +1,81 @@
+.ClientMain {
+  background-color: var(--baselight);
+  flex-direction: column;
+  min-height: 50vh;
+  padding-block: 80px;
+}
+
+.ClientMain .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cliendsdiv {
+  width: 100% !important;
+  height: 20vh !important;
+  justify-content: space-around;
+  /* border: 3px dashed red; */
+  align-items: center;
+  margin-top: 3rem;
+}
+
+/* ===================================== */
+
+.m-scroll {
+  display: flex;
+  position: relative;
+  width: 800px;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1;
+  gap: 20px;
+}
+
+.m-scroll__title {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100px;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s ease;
+}
+
+.m-scroll__title > div {
+  display: flex;
+  animation: scrollText 20s infinite linear;
+}
+
+.m-scroll h1 {
+  margin: 0;
+  font-size: 140px;
+  color: rgba(255, 255, 255, 1);
+  transition: all 2s ease;
+}
+.m-scroll a {
+  text-decoration: none;
+  color: white;
+}
+.m-scroll a:hover {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+/*div:hover {
+  animation-play-state: paused;
+}*/
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

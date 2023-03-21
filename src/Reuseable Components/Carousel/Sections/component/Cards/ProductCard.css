@@ -1,0 +1,89 @@
+.Cardroot {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 50px;
+  max-width: 1120px;
+  position: absolute;
+  width: 626.79px !important;
+  height: 327.84px !important;
+  background: #ffffff;
+  border-radius: 4.60031px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.Cardroot img {
+  /* width: 200px !important; */
+  /* height: 150px !important; */
+
+  /* width: 100% !important;
+  height: 100% !important; */
+
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.content {
+  text-align: center;
+  font-family: "gothic" !important;
+}
+
+
+
+.content p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.content p:last-child {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* .content p:last-child::before {
+content: ' . ';
+color: transparent;
+width: 30px;
+height: 30px;
+border: 2px solid red;
+background-image: url(./start.png);
+} */
+
+.Quotes {
+  display: flex;
+}
+.Quotes img {
+  width: 6px !important;
+  height: 10px !important;
+}
+
+.heading {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.styles_carouselDefault__-F9Q5 {
+  width: 1030px;
+  height: 200px;
+  margin: 20px;
+}
+
+.styles_card__GEKEZ {
+  /* border: 13px dashed black; */
+  box-shadow: none;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  /* box-shadow: none; */
+  border: 2px solid silver;
+}

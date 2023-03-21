@@ -1,0 +1,237 @@
+.ServicesHeader {
+  min-height: 85vh;
+  width: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(./Assets/servicesHeader.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+
+  color: var(--baselight);
+  -webkit-text-stroke: 4px var(--baselight);
+  font-family: var(--Gothic);
+  font-size: clamp(5vw, 10vw, 8rem);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.ServicesHeader p:last-of-type {
+  -webkit-text-stroke: 0px;
+  color: var(--baselight);
+  font-size: clamp(0.8rem, 3vh, 1rem);
+  max-width: 880px;
+  text-align: center;
+  text-transform: none;
+  font-weight: 500;
+  max-width: 680px;
+}
+
+.AllServices {
+  flex-direction: column;
+  padding-block: 150px;
+  background-color: var(--baselight);
+}
+
+.allservices_Header {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--Gothic);
+  color: var(--basegrey);
+}
+
+.allservices_Header p:first-child {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.allservices_Header p:last-child {
+  max-width: 1052px;
+  font-weight: 400;
+  font-size: 17.8216px;
+  line-height: 172.25%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.ServicesItems {
+  width: 60%;
+  height: 50px;
+  font-weight: 700;
+  background: #dce3e6;
+  color: var(--basegrey);
+  margin: 3px;
+  padding-inline: 10px;
+  text-align: center;
+  word-break: keep-all;
+  font-size: clamp(13px, 1vw, 16px);
+}
+
+.ServicesPricing {
+  padding-block: 140px;
+  padding-block-end: 0px;
+  font-family: var(--Gothic);
+  padding-inline: clamp(1rem, 1vw, 2rem);
+}
+
+.ServicesPricing > h3 {
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 49px;
+  text-transform: uppercase;
+  margin-bottom: 130px;
+  color: var(--basegrey);
+}
+
+.PriceGrid h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.9rem, 1vw, 3.9rem);
+  line-height: 38px;
+  color: var(--basegrey);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.PriceGrid p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 29px;
+}
+/* =========================================================== */
+
+.ServicesCarousel {
+  background-color: var(--basegrey);
+}
+
+/* ============================================================ */
+.OurWork {
+  padding-block: 130px;
+  font-family: var(--Gothic);
+  position: relative;
+}
+
+.OurWork .container {
+  max-width: 1550px !important;
+}
+
+.ourworkTitle p:first-child {
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 2.3rem);
+  line-height: 37px;
+  margin-bottom: 5px;
+}
+
+.ourworkTitle p:last-child {
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 2vw, 3rem);
+  line-height: 49px;
+-webkit-text-stroke: 1px;
+}
+
+.WorkGrid {
+  flex-direction: column;
+}
+
+.WorkGrid img {
+  width: 100%;
+}
+
+.WorkDetailsCard {
+  z-index: 2;
+  width: 100px;
+  max-height: 400px;
+  flex-direction: column;
+  font-family: var(--Gothic);
+  color: var(--basegrey);
+  margin-top: -120px;
+  background-color: white;
+  padding: 30px;
+  padding-block: 35px;
+}
+
+.WorkDetailsCard p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  margin: 0;
+  padding-block-end: 35px;
+}
+
+.WorkDetailsCard p:last-of-type {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  padding-block: 30px;
+  margin: 0;
+}
+
+.WorkDetailsCard a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: flex-start;
+  color: var(--accentblue) !important;
+}
+
+.worktagDiv {
+  width: 100%;
+  /* width: 94%; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.worktag {
+  width: 110px;
+  height: 35px;
+  background: rgba(45, 45, 45, 0.44);
+  border-radius: 3px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--baselight);
+  transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.worktag:hover {
+  background: rgb(209, 209, 209);
+  /* cursor: pointer; */
+  color: var(--basegrey);
+}
+
+.OurWorkBTN {
+  width: 218px;
+  height: 62.29px;
+
+  background: var(--basegrey) !important;
+  border: 1.5708px solid var(--baselight) !important;
+  border-radius: 3.1977px;
+
+  
+font-family: var(--GothicGothic) !important;
+font-weight: 400 !important;
+font-size: 18.3529px;
+line-height: 23px;
+text-transform: uppercase;
+color: var(--baselight) !important;
+margin-bottom: 100px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .WorkDetailsCard {
+    max-height: fit-content;
+    margin-top: -80px;
+  }
+}

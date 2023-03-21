@@ -1,0 +1,181 @@
+
+.ContactUs {
+  background-color: var(--basegrey);
+  padding-block-start: 230px;
+
+
+}
+
+.Contactbannertext {
+  background-color: var(--baselight);
+  color: var(--basegrey);
+  height: 130px;
+  margin-block: 70px;
+}
+
+.Contactbannertext p {
+  font-family: var(--Gothic);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.ContactUs .container {
+  max-width: 1550px !important;
+}
+
+.ContactGrid {
+  color: var(--baselight);
+  font-family: var(--Gothic);
+  align-items: start;
+  justify-content: start;
+  margin-block: 20px !important;
+}
+
+.gridhead h3 {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.gridhead p {
+  font-weight: 700;
+  font-size: 19.6124px;
+  line-height: 24px;
+}
+
+.offerings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.offerings p {
+  margin: 0px;
+  display: flex;
+  gap: 6px;
+}
+
+.contactAddress {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-block: 50px;
+}
+
+.contactAddress div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactAddress div p {
+  margin: 0px;
+  max-width: 270px;
+  /* font-family: "Quicksand"; */
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contactFollow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contactFollow button {
+  width: 126.06px;
+  height: 35.95px;
+  background-color: var(--baselight) !important;
+  color: var(--basegrey) !important;
+  border-radius: 1.86749px;
+}
+
+.contactFollow div {
+  padding-inline-end: 70px;
+}
+
+.contactFollow div img {
+  margin-inline: 3px;
+}
+
+
+.contactForm {
+  max-width: 420px;
+  max-height: 680px;
+  width: 100%;
+
+  background: #ffffff;
+  border-radius: 6.26204px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: -250px;
+}
+
+.contactForm p {
+  color: var(--basegrey);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.contactForm button {
+  width: 158.12px;
+  height: 43.83px;
+  background-color: #298bdf !important;
+  border-radius: 1.6px;
+  margin-left: auto;
+
+  font-weight: 700;
+  text-transform: capitalize;
+
+  color: var(--baselight);
+}
+
+.contactForm #textarea {
+  background-color: #d9d9d9 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .contactForm {
+    margin-inline: auto !important;
+  }
+  .contactFollow div {
+    padding-inline-end: 0px;
+  }
+}
+.contactFollow {
+  max-width: 838px;
+}
+.contact-us-map{
+  background-image: url(./Assets/map.png);
+  padding: 80px 0px;
+  background-repeat: no-repeat;
+
+}
+label.contact-form-checkbox-lbl {
+  display: flex;
+  gap: 20px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  font-weight: 700;
+}
+input.chkboxes {
+  transform: scale(1.7);
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin-top: 280px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+a.mailing {
+  color: white;
+}

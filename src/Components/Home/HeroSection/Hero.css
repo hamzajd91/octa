@@ -1,0 +1,76 @@
+.heroMain {
+  min-height: 100vh;
+  /* background-color: rgb(33, 56, 56); */
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 231%
+    ),
+    url(./Assets/HeroImage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroMain > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroHeader {
+  font-family: var(--Gothic);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51.6014px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.HeroServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1.6rem;
+}
+
+.HeroServices div {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding-inline: 18px;
+  padding-block: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+  font-family: var(--Gothic);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.HeroButton {
+  font-family: var(--Gothic);
+  font-style: normal;
+  font-weight: 600;
+  padding-inline: 20px !important;
+  padding-block: 8px !important;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff !important;
+  margin-top: 1.6rem !important;
+
+  background: #298cdf !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 95px !important;
+}

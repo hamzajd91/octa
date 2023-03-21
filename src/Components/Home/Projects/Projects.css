@@ -1,0 +1,96 @@
+
+  .ProjectsMain h3{
+    color: white !important;
+  }
+
+  .ProjectsMain .container {
+    max-width: 90% !important;
+    margin-block: 80px;
+    margin-bottom: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .ProjectTabsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .ProjectsMain {
+    background-color: var(--basegrey);
+    flex-direction: column;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ul.mb-3.nav.nav-tabs {
+  border: none;
+}
+.ProjectsMain li.nav-item .nav-link {
+  background: transparent;
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding-bottom: 20px
+}
+
+.ProjectsMain li.nav-item .nav-link.active {
+  color: white;
+  outline: none;
+  border-color: transparent !important;
+  border-bottom: transparent !important;
+  background: transparent !important;
+}
+.ProjectsMain li.nav-item .nav-link:hover {
+  color: white;
+  outline: none;
+  border-color: transparent !important;
+  border-bottom: transparent !important;
+  background: transparent !important;
+}
+
+.forborder-top{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 0) 100%);
+width: 100%;
+height: 1px;
+margin-bottom: -55px;
+}
+
+
+.ProjectsMain li.nav-item .nav-link.active::after {
+  content: "";
+  /* width: 100%; */
+  /* height: 100%; */
+  /* border: 1px solid #ccc; */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 53px;
+  bottom: -1px;
+  background: linear-gradient(90deg, rgba(41, 139, 223, 0) 0%, #298bdf 47.92%, rgb(255 255 255 / 0%) 100%);
+  /* background: linear-gradient(180deg, rgba(41, 139, 223, 0) 0%, #298BDF 47.92%, rgba(41, 139, 223, 0.109091) 100%); */
+  /* transform: rotate(-90deg); */
+}
+.ProjectsMain li.nav-item{
+  position: relative;
+}
+
+ul.mb-3.nav.nav-tabs {
+  border: none;
+  justify-content: center;
+}

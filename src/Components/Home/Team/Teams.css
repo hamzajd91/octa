@@ -1,0 +1,126 @@
+.TeamMain {
+  background-color: var(--basegrey);
+  flex-direction: column;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 40px;
+}
+
+.TeamHeader {
+  background: #ffffff;
+  border: 3px solid #298bdf;
+  border-radius: 29px;
+  padding-inline: 25px;
+  padding-block: 5px;
+  font-family: "Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.teamtext {
+  font-family: "Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.buttonDiv {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.buttonDiv button:first-child {
+  background: #298bdf;
+  border-radius: 4.13334px;
+  color: white !important;
+}
+
+.buttonDiv button:last-child {
+  border: 1.18096px solid #298bdf;
+  border-radius: 4.13334px;
+  color: white !important;
+}
+
+.TeamMain .container {
+  max-width: 1550px !important;
+}
+
+.TeamCard {
+  width: 235px;
+  height: 316px;
+  background: linear-gradient(360deg, #101010 0%, rgba(0, 0, 0, 0) 53.33%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+
+  font-family: "Gothic";
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.TeamMain .TeamCard p:first-child {
+  font-weight: 700;
+  font-size: 13.8151px;
+  line-height: 17px;
+}
+
+.TeamMain .TeamCard p:last-child {
+  font-weight: 400;
+  font-size: 11.0874px;
+  line-height: 14px;
+}
+
+.TeamMain .react-multiple-carousel__arrow--right {
+  /* right: calc(4% + 1px); */
+  position: absolute;
+  margin-right: -50px !important;
+  width: 81px !important;
+  border-radius: 4px !important;
+  /* height: 100px; */
+  aspect-ratio: 1 !important;
+  background-color: white !important;
+}
+
+.TeamMain .react-multiple-carousel__arrow--right::before {
+  content: "NEXT" !important;
+  color: black !important;
+  font-family: var(--Gothic);
+}
+
+.TeamMain .react-multiple-carousel__arrow--left {
+  /* right: calc(4% + 1px); */
+  position: absolute;
+  margin-left: -50px !important;
+  width: 81px !important;
+  border-radius: 4px !important;
+  /* height: 100px; */
+  aspect-ratio: 1 !important;
+  background-color: white !important;
+}
+
+.TeamMain .react-multiple-carousel__arrow--left::before {
+  content: "PREV" !important;
+  color: black !important;
+  font-family: var(--Gothic);
+}
+
+.TeamMain .react-multi-carousel-list {
+  min-height: 400px !important;
+  /* justify-content: center !important; */
+}

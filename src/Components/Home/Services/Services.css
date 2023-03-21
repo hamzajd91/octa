@@ -1,0 +1,177 @@
+.servicesMain {
+  background-color: var(--baselight);
+  flex-direction: column;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 100px;
+}
+
+.servicesText {
+  font-family: var(--Gothic) !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  max-width: 731px;
+  color: #2d2d2d;
+  margin-block-start: 30px;
+  margin-block-end: 50px;
+color: #2D2D2D;
+}
+
+.servicesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ServiceCard {
+  width: 23.4rem;
+  height: 28.7rem;
+
+  /* width: 370px;
+  height: 440px;
+
+  width: 375px;
+  height: 460px; */
+
+  /* width: 80%; */
+  /* height: 80%; */
+  background-color: var(--basegrey);
+  position: relative;
+}
+
+.servicesMain .container {
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServiceCardLine {
+  position: absolute;
+  width: 282px;
+  height: 11px;
+  left: 0.17px;
+  top: 23.42px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  background-color: var(--accentblue);
+}
+
+.ServiceCardLineText {
+  position: absolute;
+  left: 26.99px;
+  font-family: "gothic" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.8456px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin: 0px;
+  color: white;
+}
+
+.ServiceCard img {
+  filter: grayscale(100);
+
+  width: 23.4rem;
+  height: 28.7rem;
+
+  /* width: 375px;
+  height: 460px; */
+
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.ServiceCard:hover > img {
+  filter: grayscale(0) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.ServiceCard:hover > .serviceHover {
+  opacity: 1;
+  translate: 0px 0px;
+  z-index: 3;
+}
+
+.serviceHover {
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: linear-gradient(transparent, transparent, var(--accentblue));
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+  translate: 0px 0px;
+}
+
+.servicesItems_div{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: end;
+padding-bottom: 50px;
+height: 100%;
+width: 100%;
+top: 100px;
+
+}
+
+.servicesMain button {
+  width: 132.12px;
+  height: 39px;
+  margin-top: 80px;
+  color: white !important;
+  border: none !important;
+  background: var(--accentblue) !important;
+  border-radius: 3px !important;
+  transition: 0.2s ease-in-out;
+}
+
+.servicesMain button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 10px;
+}
+
+@media only screen and (max-width: 1595px) {
+  .ServiceCard {
+    /* width: 23.4rem;
+    height: 28.7rem; */
+
+    width: 300px;
+    height: 380px;
+  }
+
+  .ServiceCard img {
+    filter: grayscale(100);
+
+    width: 100%;
+    height: 100%;
+
+    width: 300px;
+    height: 380px;
+    
+    /* width: 330px;
+    height: 410px; */
+
+    /* width: 23.4rem;
+    height: 28.7rem; */
+  }
+}
+
+
+@media (max-width:767px) {
+  .contactForm {
+
+    margin-bottom: -150px;
+}
+}

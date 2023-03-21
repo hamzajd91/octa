@@ -1,0 +1,97 @@
+.JoinUs {
+  background-color: var(--basegrey);
+  padding-block-start: 230px;
+  padding-block-end: 100px;
+}
+
+.JoinUs .container {
+  max-width: 1550px !important;
+}
+
+.JoinusGrid {
+  background-color: var(--baselight);
+  color: var(--basegrey);
+  padding-block: 90px;
+  padding-inline: 60px;
+}
+
+.FormTextfield input {
+  background-color: white;
+}
+
+.JoinUs .MuiGrid-container {
+  row-gap: 50px;
+}
+
+.ProfileimgBox {
+  width: 230px;
+  height: 230px;
+  border: 2px solid grey;
+  margin: 10px;
+  margin-inline: 20px;
+  margin-top: 0px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imguploaded {
+  top: 240px !important;
+}
+
+.imgNOTuploaded {
+  top: 15px !important;
+}
+
+.ResetButton {
+  width: 141.49px;
+  height: 40.35px;
+
+  background: #d63030 !important;
+  border-radius: 2px;
+  color: #ffffff !important;
+  margin-inline: 5px !important;
+}
+
+.SubmitButton {
+  width: 141.49px;
+  height: 40.35px;
+
+  background: #298bdf !important;
+  border-radius: 2px;
+  color: #ffffff !important;
+  margin-inline: 5px !important;
+}
+
+.UploadResume {
+  width: 217px;
+  height: 41px;
+  background: var(--basegrey) !important;
+  border-radius: 2px;
+  color: #ffffff !important;
+}
+
+.inputStyle input {
+    /* border: 2px solid red; */
+    z-index: 5;
+}
+
+.UploadPicbtn {
+  /* width: 217px; */
+  /* width: 100%; */
+  /* height: 41px; */
+ top: 240px !important;
+  padding-inline: 60px;
+  padding-block: 10px;
+
+  background: var(--basegrey) !important;
+  color: var(--baselight) !important;
+  font-family: var(--Gothic);
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  border-radius: 3px;
+}
+
+.UploadPiclabel {
+}

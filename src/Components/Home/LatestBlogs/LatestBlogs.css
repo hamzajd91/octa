@@ -1,0 +1,133 @@
+.LatestBlogsMain {
+  background-color: var(--basegrey);
+  flex-direction: column;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-block: 40px; */
+}
+
+.LatestBlogsMain .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardsBlog {
+  background-color: var(--basegrey);
+  color: white;
+  /* font-size: 14px; */
+  font-size: 13.6415px;
+  line-height: 22px;
+
+  width: 23.4rem;
+  width: 368px;
+
+
+}
+
+.cardblogimage {
+  /* width: 388.78px; */
+  /* height: 306.93px; */
+  z-index: 2;
+    transition: .2s ease-in-out
+}
+.Cardhover {
+  width: 228px;
+  height: 106.93px;
+  position: absolute;
+    transition: .2s ease-in-out
+}
+
+.cardsBlog:hover .Cardhover {
+  /* box-shadow: #298adfd0 0px 134px 55px, #298adf7d 0px -5px 7px,
+    rgba(255, 255, 255, 0.516) 0px 64px 27px, rgb(255, 255, 255) 5px 0px 7px,
+    rgb(255, 255, 255) -5px -5px 7px; */
+
+  box-shadow: #298adfd0 0px 114px 75px, 
+  #298adf7d 0px -5px 7px;
+  left: 30px;
+}
+
+.cardsBlog:hover .cardblogimage {
+  box-shadow:
+   rgba(255, 255, 255, 0.435) 5px 0px 4px,
+  rgba(255, 255, 255, 0.435) -5px 0px 7px,
+   rgba(255, 255, 255, 0.435) 0px -5px 7px;
+
+}
+
+
+.cardButton {
+  background-color: var(--accentblue) !important;
+  width: 8rem;
+  border-radius: 3.65916px;
+  width: 130.81px;
+
+  font-weight: 700;
+  font-size: 13.7218px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff !important;
+}
+
+.cardsRow {
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.latestBlogsHeadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestBlogsHeader {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.latestBlogsSubheading {
+  font-size: 18px;
+  color: white;
+}
+
+@media only screen and (max-width: 1595px) {
+  .cardsBlog {
+    width: 300px;
+    /* height: 380px; */
+  }
+}
+.cardsBlog {
+
+  border-color: transparent !important;
+}
+.cardTitle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(217, 217, 217, 0.3);
+  font-size: 14px;
+  /* padding-block: 5px; */
+  height: 40.92px;
+  font-family: "Gothic";
+  font-weight: 700;
+  font-size: 19.3255px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 37px 15px;
+}
+@media (min-width:767px) {
+  p.card-text {
+    min-height: 264px;
+  }
+}
